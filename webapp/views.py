@@ -10,5 +10,5 @@ def home(request):
 
 def database_view(request):
     post = Post.objects.get(id = 1)
-    message = post.body
+    message = post.summary
     return HttpResponse(message)
