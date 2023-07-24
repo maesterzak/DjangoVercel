@@ -78,14 +78,14 @@ WSGI_APPLICATION = 'project.wsgi.application'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
 DATABASES = {
-    # 'default': {
-    #     'ENGINE': os.environ["ENGINE"],
-    #     'HOST': os.environ["HOST"],
-    #     'NAME': os.environ["NAME"],
-    #     'USER': os.environ["USER"],
-    #     'PASSWORD': os.environ["PASSWORD"],
-    #     'PORT': os.environ["PORT"],
-    # }
+    'default': {
+        'ENGINE': os.environ["ENGINE"],
+        'HOST': os.environ["HOST"],
+        'NAME': os.environ["NAME"],
+        'USER': os.environ["USER"],
+        'PASSWORD': os.environ["PASSWORD"],
+        'PORT': os.environ["PORT"],
+    }
 }
 
 
